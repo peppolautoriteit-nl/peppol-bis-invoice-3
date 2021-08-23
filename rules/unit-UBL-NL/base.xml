@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testSet xmlns="http://difi.no/xsd/vefa/validator/1.0" configuration="peppolbis-en16931-base-3.0-ubl">
+  <assert>
+      <description>DESCRIPTIONHERE</description>
+    <scope>RULENUM</scope>
+  </assert>
+  <test>
+    <assert>
+      <success>RULENUM</success>
+    </assert>
+    GOODDOCGOESHERE
+  </test>
+  <test>
+    <assert>
+      <error>RULENUM</error>
+    </assert>
+    BADDOCGOESHERE
+  </test>
+</testSet>
