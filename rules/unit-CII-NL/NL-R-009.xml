@@ -43,6 +43,9 @@
             <ram:Name>Example files</ram:Name>
           </ram:SpecifiedTradeProduct>
           <ram:SpecifiedLineTradeAgreement>
+            <ram:BuyerOrderReferencedDocument>
+              <ram:LineID>1</ram:LineID>
+            </ram:BuyerOrderReferencedDocument>
             <ram:NetPriceProductTradePrice>
               <ram:ChargeAmount>25</ram:ChargeAmount>
             </ram:NetPriceProductTradePrice>
@@ -60,9 +63,6 @@
               <ram:LineTotalAmount>200</ram:LineTotalAmount>
             </ram:SpecifiedTradeSettlementLineMonetarySummation>
           </ram:SpecifiedLineTradeSettlement>
-          <ram:BuyerOrderReferencedCIReferencedDocument>
-            <ram:LineID>1</ram:LineID>
-          </ram:BuyerOrderReferencedCIReferencedDocument>
         </ram:IncludedSupplyChainTradeLineItem>
 
         <ram:IncludedSupplyChainTradeLineItem>
@@ -100,9 +100,9 @@
               <ram:ID schemeID="0106">1234567890</ram:ID>
             </ram:SpecifiedLegalOrganization>
             <ram:PostalTradeAddress>
+              <ram:PostcodeCode>1234AA</ram:PostcodeCode>
               <ram:LineOne>SellerStreet</ram:LineOne>
               <ram:CityName>Salestown</ram:CityName>
-              <ram:PostcodeCode>1234AA</ram:PostcodeCode>
               <ram:CountryID>NL</ram:CountryID>
             </ram:PostalTradeAddress> 
             <ram:URIUniversalCommunication>
@@ -116,9 +116,9 @@
           <ram:BuyerTradeParty>
             <ram:Name>Buyers B.V.</ram:Name>
             <ram:PostalTradeAddress>
+              <ram:PostcodeCode>4321BB</ram:PostcodeCode>
               <ram:LineOne>BuyerStreet</ram:LineOne>
               <ram:CityName>Buytown</ram:CityName>
-              <ram:PostcodeCode>4321BB</ram:PostcodeCode>
               <ram:CountryID>NL</ram:CountryID>
             </ram:PostalTradeAddress>
             <ram:URIUniversalCommunication>
@@ -131,6 +131,12 @@
           </ram:BuyerOrderReferencedDocument>
 
         </ram:ApplicableHeaderTradeAgreement>
+
+        <ram:ApplicableHeaderTradeDelivery>
+          <ram:ShipToTradeParty>
+            <ram:Name>Trade Party</ram:Name>
+          </ram:ShipToTradeParty>
+        </ram:ApplicableHeaderTradeDelivery>
 
         <ram:ApplicableHeaderTradeSettlement>
           <ram:PaymentReference>08/00355</ram:PaymentReference> 
@@ -243,6 +249,9 @@
             <ram:Name>Example files</ram:Name>
           </ram:SpecifiedTradeProduct>
           <ram:SpecifiedLineTradeAgreement>
+            <ram:BuyerOrderReferencedDocument>
+              <ram:LineID>1</ram:LineID>
+            </ram:BuyerOrderReferencedDocument>
             <ram:NetPriceProductTradePrice>
               <ram:ChargeAmount>25</ram:ChargeAmount>
             </ram:NetPriceProductTradePrice>
@@ -260,9 +269,6 @@
               <ram:LineTotalAmount>200</ram:LineTotalAmount>
             </ram:SpecifiedTradeSettlementLineMonetarySummation>
           </ram:SpecifiedLineTradeSettlement>
-          <ram:BuyerOrderReferencedCIReferencedDocument>
-            <ram:LineID>1</ram:LineID>
-          </ram:BuyerOrderReferencedCIReferencedDocument>
         </ram:IncludedSupplyChainTradeLineItem>
 
         <ram:IncludedSupplyChainTradeLineItem>
@@ -300,9 +306,9 @@
               <ram:ID schemeID="0106">1234567890</ram:ID>
             </ram:SpecifiedLegalOrganization>
             <ram:PostalTradeAddress>
+              <ram:PostcodeCode>1234AA</ram:PostcodeCode>
               <ram:LineOne>SellerStreet</ram:LineOne>
               <ram:CityName>Salestown</ram:CityName>
-              <ram:PostcodeCode>1234AA</ram:PostcodeCode>
               <ram:CountryID>NL</ram:CountryID>
             </ram:PostalTradeAddress> 
             <ram:URIUniversalCommunication>
@@ -316,9 +322,9 @@
           <ram:BuyerTradeParty>
             <ram:Name>Buyers B.V.</ram:Name>
             <ram:PostalTradeAddress>
+              <ram:PostcodeCode>4321BB</ram:PostcodeCode>
               <ram:LineOne>BuyerStreet</ram:LineOne>
               <ram:CityName>Buytown</ram:CityName>
-              <ram:PostcodeCode>4321BB</ram:PostcodeCode>
               <ram:CountryID>NL</ram:CountryID>
             </ram:PostalTradeAddress>
             <ram:URIUniversalCommunication>
@@ -326,6 +332,12 @@
             </ram:URIUniversalCommunication> 
           </ram:BuyerTradeParty>
         </ram:ApplicableHeaderTradeAgreement>
+
+        <ram:ApplicableHeaderTradeDelivery>
+          <ram:ShipToTradeParty>
+            <ram:Name>Trade Party</ram:Name>
+          </ram:ShipToTradeParty>
+        </ram:ApplicableHeaderTradeDelivery>
 
         <ram:ApplicableHeaderTradeSettlement>
           <ram:PaymentReference>08/00355</ram:PaymentReference> 
